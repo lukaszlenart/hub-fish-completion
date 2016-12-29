@@ -5,7 +5,7 @@ This project adds completion for command [hub](https://github.com/github/hub) in
 ## Installation
 
 ```
-wget https://raw.githubusercontent.com/lukaszlenart/hub-fish-completion/master/hub.fish ~/.config/fish/completions/
+wget -O ~/.config/fish/completions/hub.fish https://raw.githubusercontent.com/lukaszlenart/hub-fish-completion/master/hub.fish
 ```
 
 ## Supported commands
