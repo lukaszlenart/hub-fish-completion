@@ -11,6 +11,7 @@ wget https://raw.githubusercontent.com/lukaszlenart/hub-fish-completion/master/h
 ## Supported commands
 
  - `pull-request`
+ - `ci-status`
 
 ## License
 
