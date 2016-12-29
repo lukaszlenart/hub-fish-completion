@@ -11,6 +11,7 @@ wget -O ~/.config/fish/completions/hub.fish https://raw.githubusercontent.com/lu
 ## Supported commands
 
  - `pull-request`
+ - `ci-status`
 
 ## License
 

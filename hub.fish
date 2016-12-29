@@ -24,3 +24,5 @@ complete -f -c hub -n '__fish_hub_using_command pull-request' -a '-m' -d "title 
 complete -f -c hub -n '__fish_hub_using_command pull-request' -a '-F' -d "title and body of the pull request can be entered in the same manner as git commit message"
 complete -f -c hub -n '__fish_hub_using_command pull-request' -a '-d' -d 'BASE, formats: "branch", "owner:branch", "owner/repo:branch"'
 complete -f -c hub -n '__fish_hub_using_command pull-request' -a '-h' -d 'HEAD, formats: "branch", "owner:branch", "owner/repo:branch"'
+
+complete -f -c hub -n '__fish_hub_needs_command' -a ci-status -d "Looks up the SHA for COMMIT in GitHub Status API and displays the latest status."
